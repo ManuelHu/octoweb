@@ -14,7 +14,11 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 100px;
+    padding: 120px;
+}
+
+.oa-logo-area h1 {
+	text-shadow: 3px 3px 3px #fff;
 }
 
 .oa-logo-area h1 {
@@ -32,15 +36,26 @@ html, body {
     color: #fff;
 }
 
+.oa-text-container-attention {
+    background-color: orange;
+    color: #000;
+}
+
 .oa-text-container-grey {
     background-color: #eee;
     color: #000;
 }
 
 .oa-text-content {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.42857143;
     padding: 20px;
+}
+
+.oa-section-small .oa-text-content {
+	font-size: 20px;
+	line-height: 1.42857143;
+    padding: 15px;
 }
 
 .oa-footer-content {
@@ -53,6 +68,11 @@ html, body {
 .oa-section-header {
     margin-top: 60px;
     margin-bottom: 40px;
+}
+
+.oa-section-small .oa-section-header {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
     .oa-section-header h2 {
@@ -111,5 +131,5 @@ a.oa-button {
     }
 
     .oa-social li a:hover {
-        color: #222;
+        color: #555;
     }
