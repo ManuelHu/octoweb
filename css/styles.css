@@ -133,3 +133,11 @@ a.oa-button {
     .oa-social li a:hover {
         color: #555;
     }
+	.oa-social-divider {
+		border-left: 2px solid #555;
+	}
+	.oa-social-name {
+		color: #555;
+		font-size: 2rem;
+		vertical-align: 12%;
+	}
